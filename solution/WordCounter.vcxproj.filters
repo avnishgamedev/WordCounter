@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{6AF0870B-D6F9-877C-5F75-9E7CCB7D937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\App">
+      <UniqueIdentifier>{9AFE9875-06DE-1711-0FF6-A2E77B547E72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Platform">
+      <UniqueIdentifier>{FE438423-EAA6-13C8-932C-4C7E7F6EDF4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Platform\Windows">
+      <UniqueIdentifier>{380C9D12-249B-26DC-CDB9-3AD7B9273782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\ThirdParty">
+      <UniqueIdentifier>{E4721315-D040-071B-B9D4-7741A541E37F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\ThirdParty\ImGui">
+      <UniqueIdentifier>{0E8347C8-FA11-D191-A330-E58C8F9EE137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\ThirdParty\ImGui\backends">
+      <UniqueIdentifier>{F84C9496-6465-7BC0-2D12-0B5A99E90F5A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\WordCounter\Gui\App\App.h">
+      <Filter>Gui\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\Font.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\Gui.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\GuiHelper.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\Platform\Platform.h">
+      <Filter>Gui\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\Platform\Windows\WindowsPlatform.h">
+      <Filter>Gui\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\Themes.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\backends\imgui_impl_dx9.h">
+      <Filter>Gui\ThirdParty\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\backends\imgui_impl_win32.h">
+      <Filter>Gui\ThirdParty\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imconfig.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_internal.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_stdlib.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imstb_rectpack.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imstb_textedit.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\Gui\ThirdParty\ImGui\imstb_truetype.h">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WordCounter\MainApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\WordCounter\Gui\App\App.cpp">
+      <Filter>Gui\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\EntryPoint.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\Gui.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\Platform\Platform.cpp">
+      <Filter>Gui\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\Platform\Windows\WindowsPlatform.cpp">
+      <Filter>Gui\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\backends\imgui_impl_dx9.cpp">
+      <Filter>Gui\ThirdParty\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Gui\ThirdParty\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui.cpp">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_demo.cpp">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_draw.cpp">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_stdlib.cpp">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_tables.cpp">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\Gui\ThirdParty\ImGui\imgui_widgets.cpp">
+      <Filter>Gui\ThirdParty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WordCounter\MainApp.cpp" />
+  </ItemGroup>
+</Project>
