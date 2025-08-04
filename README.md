@@ -1,6 +1,6 @@
 # WordCounter
 
-![WordCounter Demo](https://img.shields.io/badge/Platform-Windows-blue) ![Language](https://img.shields.io/badge/Language-C%2B%2B-lightblue) ![License](https://img.shields.io/badge/License-Copyright%202025%20Avnish%20Kirnalli-green)
+![WordCounter Demo](https://img.shields.io/badge/Platform-Windows-blue) ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 
 A lightweight, optionally real-time, word counter that displays a count of letters & words selected in ANY app.
 Developed using the [ImGuiBorderlessWindow](https://github.com/AvnishGameDev/ImGuiBorderlessWindow) Framework which uses [Dear ImGui](https://github.com/ocornut/imgui) with DirectX as Backend.
