@@ -11,6 +11,8 @@ Developed using the [ImGuiBorderlessWindow](https://github.com/AvnishGameDev/ImG
 
 This project is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
 
+---
+
 *This application demonstrates the usage and flexibility of the ImGuiBorderlessWindow framework for creating modern, lightweight desktop applications.*
 
 Copyright &copy; 2025 Avnish Kirnalli
